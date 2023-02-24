@@ -1,0 +1,18 @@
+{
+    "python.formatting.provider": "autopep8",
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "MySQLconnection",
+            "database": "face_recognizer",
+            "username": "rupesh",
+            "password": "rupesh@22"
+        }
+    ]
+}
