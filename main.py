@@ -2,11 +2,11 @@ from tkinter import*
 import tkinter
 from PIL import Image,ImageTk
 import os
-from student import Student
-from train import Train_Data
-from face_recogniton import Face_Recoginition
-from student_attendance import Student_Attendance
-from developer import Developer
+# from student import Student
+# from train import Train_Data
+# from face_recogniton import Face_Recoginition
+# from student_attendance import Student_Attendance
+# from developer import Developer
 from time import strftime
 import datetime as dt 
 
@@ -159,25 +159,25 @@ class Face_Recognition_System:
 
 
         # FunctionBUTTONS for student imagge and tittle
-    def student_details(self):
-        self.new_window=Toplevel(self.root)
-        self.rupesh=Student(self.new_window)
+    # def student_details(self):
+    #     self.new_window=Toplevel(self.root)
+    #     self.rupesh=Student(self.new_window)
 
-    def Train_Student_Data(self):
-        self.new_window=Toplevel(self.root)
-        self.rupesh=Train_Data(self.new_window)       
+    # def Train_Student_Data(self):
+    #     self.new_window=Toplevel(self.root)
+    #     self.rupesh=Train_Data(self.new_window)       
 
-    def Face_Data(self):
-        self.new_window=Toplevel(self.root)
-        self.rupesh=Face_Recoginition(self.new_window)
+    # def Face_Data(self):
+    #     self.new_window=Toplevel(self.root)
+    #     self.rupesh=Face_Recoginition(self.new_window)
 
-    def Attendace(self):
-        self.new_window=Toplevel(self.root)
-        self.rupesh=Student_Attendance(self.new_window)
+    # def Attendace(self):
+    #     self.new_window=Toplevel(self.root)
+    #     self.rupesh=Student_Attendance(self.new_window)
 
-    def Developer(self):
-        self.new_window=Toplevel(self.root)
-        self.rupesh=Developer(self.new_window)
+    # def Developer(self):
+    #     self.new_window=Toplevel(self.root)
+    #     self.rupesh=Developer(self.new_window)
 
 
     def Win_Exit(self):
