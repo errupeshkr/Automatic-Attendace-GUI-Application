@@ -86,7 +86,7 @@ class Face_Recognition_System:
         b1.place(x=180,y=120,width=180,height=120)
         b1=Button(bg_img,text="Student Details",command=self.student_details,cursor="hand2",font=("times new roman",15,"bold"),bg="darkblue",fg="white")
         b1.place(x=180,y=240,width=180,height=40)
-
+#gsdfgh
 #Face Recognition button2 
         img5=Image.open(r"Project_Image\face.jpeg")
         img5=img5.resize((180,120),Image.Resampling.LANCZOS)
